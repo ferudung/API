@@ -37,7 +37,7 @@ header değerlerinden
         spec01.pathParams("parametre1","todos",
                 "parametre2",2);
         JsonPlaceHolderTestData expectedObje=new JsonPlaceHolderTestData();
-        HashMap<String,Object> expectedData= (HashMap<String, Object>) expectedObje.setupTestData();
+        HashMap<String,Object> expectedData= (HashMap<String, Object>) expectedObje.setUpTestData();
         System.out.println(expectedData);
 
 
