@@ -1,5 +1,7 @@
 package com.techproed.testData;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -90,6 +92,23 @@ olduğunu test edin.
         expectedData.put("message","Successfully! Record has been added.");
         return expectedData;
 
+
+    }
+    public JSONObject setUpDeleteExpectedData(){
+
+
+        //Dönen response un status kodunun 200 ve body kısmının aşağıdaki gibi olduğunu test edin
+        //{
+        // "status": "success",
+        // "data": "2",
+        // "message": "Successfully! Record has been deleted"
+        JSONObject expectedData=new JSONObject();
+        expectedData.put("status", "success");
+        expectedData.put("message","Successfully! Record has been deleted");
+        expectedData.put("data",2);
+
+
+        return expectedData;
 
     }
 

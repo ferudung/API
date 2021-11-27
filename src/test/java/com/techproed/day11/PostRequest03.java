@@ -1,11 +1,10 @@
 package com.techproed.day11;
 
-import com.techproed.testBase.jsonPlaceHolderTestBase;
+import com.techproed.testBase.JsonPlaceHolderTestBase;
 import com.techproed.testData.JsonPlaceHolderTestData;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.json.JSONObject;
 import org.junit.Assert;
 import org.junit.Test;
@@ -15,7 +14,7 @@ import java.util.HashMap;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class PostRequest03 extends jsonPlaceHolderTestBase {
+public class PostRequest03 extends JsonPlaceHolderTestBase {
 
     /*
     https://jsonplaceholder.typicode.com/todos URL ine aşağıdaki body gönderildiğinde,

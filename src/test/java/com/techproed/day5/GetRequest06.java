@@ -1,7 +1,7 @@
 package com.techproed.day5;
 
 
-import com.techproed.testBase.jsonPlaceHolderTestBase;
+import com.techproed.testBase.JsonPlaceHolderTestBase;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.Test;
@@ -9,7 +9,7 @@ import org.junit.Test;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class GetRequest06 extends jsonPlaceHolderTestBase {
+public class GetRequest06 extends JsonPlaceHolderTestBase {
     // https://jsonplaceholder.typicode.com/todos/123 url'ine, accept type'i "application/json" olan
     // GET request'i yolladigimda gelen response’un;
     // status kodunun 200, content type'inin "application/json", Headers'daki "Server" in "cloudflare",

@@ -1,19 +1,17 @@
 package com.techproed.day07;
 
-import com.techproed.testBase.jsonPlaceHolderTestBase;
+import com.techproed.testBase.JsonPlaceHolderTestBase;
 import com.techproed.testData.JsonPlaceHolderTestData;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.HashMap;
-import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
-public class GetRequest11TestBase extends jsonPlaceHolderTestBase{
+public class GetRequest11TestBase extends JsonPlaceHolderTestBase {
     /*
 https://jsonplaceholder.typicode.com/todos/2 url ‘ine istek gönderildiğinde,
 Dönen response un
