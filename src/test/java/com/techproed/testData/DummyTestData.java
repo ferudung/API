@@ -105,7 +105,7 @@ olduğunu test edin.
         JSONObject expectedData=new JSONObject();
         expectedData.put("status", "success");
         expectedData.put("message","Successfully! Record has been deleted");
-        expectedData.put("data",2);
+        expectedData.put("data","2");
 
 
         return expectedData;
